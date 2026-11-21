@@ -24,10 +24,10 @@ The game opens your webcam, tracks your hand with MediaPipe, and reads your Rock
 
 ## How to run
 
-You need Python 3 and a webcam. There is no `requirements.txt` in this repo, so install the two dependencies first:
+You need Python 3 and a webcam. Install the dependencies first:
 
 ```bash
-pip install opencv-python mediapipe
+pip install -r requirements.txt
 ```
 
 Then run the game:
