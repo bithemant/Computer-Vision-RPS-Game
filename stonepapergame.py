@@ -4,6 +4,7 @@ import random
 import time
 from collections import deque, Counter
 
+# ── Mediapipe setup ────────────────────────────────────────────────────────────
 mp_hands = mp.solutions.hands
 hands = mp_hands.Hands(
     static_image_mode=False,
